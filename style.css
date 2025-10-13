@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #0B0F1A;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --- NAVBAR --- */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #2e0a44;
+}
+
+.nav1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav2 {
+  display: flex;
+  gap: 25px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 8px 35px 8px 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
+
+.ri-search-2-line {
+  position: absolute;
+  right: 2px;
+  color: #fff;
+  background-color: #11ab56;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+  position: relative;
+  background-color: #0B0F1A;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: 400px;
+  font-weight: 800;
+  color:white;
+  text-align: center;
+  z-index: 0;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-90%);
+}
+
+.content {
+    position: absolute;
+   top: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  z-index: 1;
+}
+
+.left{
+    display: flex;
+  flex-direction: column;
+    gap: 25px;
+}
+
+.left h4 {
+   font-size: 20px;
+}
+
+.left h4 span{
+    font-size: 20px;
+    color: aqua;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+}
+
+
+.btn-1{
+     font-size: 20px;
+     padding: 12px;
+     border-radius: 20px;
+     background-color: #49fbff;
+}
+
+.btn-2{
+     font-size: 20px;
+     padding: 12px;
+     border-radius: 20px;
+
+}
+
+
+.right {
+  z-index: 2;
+  display: flex;
+ justify-content: space-between;
+}
+
+.right img {
+  height: 420px;
+  width: 380px;
+  object-fit: cover;
+  
+} 
+
+ .para {
+ font-size: 20px;
+ font-family: "Poppins", sans-serif;
+}
+ 
+
+/* FEATURED PRODUCTS */
+.card1 {
+  background-color: #193992;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+
+.card2 {
+display: flex;
+  margin: 40px 0;
+}
+
+.box{
+  height: 200px;
+  width: 250px;
+  background-color: #11915c;
+}
+
